@@ -1,0 +1,15 @@
+2023-Mar-18 16:12:15 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-18 16:12:15 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-18 16:12:18 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-18 16:12:18 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - validate website LandingPage is successfull
+2023-Mar-18 16:12:18 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - Hello,Signin And List Option is available on LandingPage  
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website passedCreate a Wish List  Create a Wish List
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website are failedCreate a Wish List  Create a Wish List
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website passedWish from Any Website  Wish from Any Website
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website are failedWish from Any Website  Wish from Any Website
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website passedBaby Wishlist  Baby Wishlist
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website are failedBaby Wishlist  Baby Wishlist
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website passedDiscover Your Style  Discover Your Style
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website are failedDiscover Your Style  Discover Your Style
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website passedExplore Showroom  Explore Showroom
+2023-Mar-18 16:12:18 pm [main] INFO  YourList.class - validation of expected list and your list present on website are failedExplore Showroom  Explore Showroom

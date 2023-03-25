@@ -1,0 +1,42 @@
+2023-Mar-23 23:50:40 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-23 23:50:40 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-23 23:50:43 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-23 23:50:43 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - validate website LandingPage is successfull
+2023-Mar-23 23:50:43 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - Hello,Signin And List Option is available on LandingPage  
+2023-Mar-23 23:50:43 pm [main] INFO  YourList.class - validation of expected list and your list present on website passed: Create a Wish List  Create a Wish List
+2023-Mar-23 23:50:43 pm [main] INFO  YourList.class - validation of expected list and your list present on website passed: Wish from Any Website  Wish from Any Website
+2023-Mar-23 23:50:43 pm [main] INFO  YourList.class - validation of expected list and your list present on website passed: Baby Wishlist  Baby Wishlist
+2023-Mar-23 23:50:43 pm [main] INFO  YourList.class - validation of expected list and your list present on website passed: Discover Your Style  Discover Your Style
+2023-Mar-23 23:50:43 pm [main] INFO  YourList.class - validation of expected list and your list present on website passed: Explore Showroom  Explore Showroom
+2023-Mar-23 23:50:44 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-23 23:50:44 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-23 23:50:47 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-23 23:50:47 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - validate website LandingPage is successfull
+2023-Mar-23 23:50:47 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - Hello,Signin And List Option is available on LandingPage  
+2023-Mar-23 23:50:47 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:47 pm [main] INFO  YourAccount.class - Your Account -> Your Account
+2023-Mar-23 23:50:47 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Orders -> Your Orders
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Wish List -> Your Wish List
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Recommendations -> Your Recommendations
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Prime Membership -> Your Prime Membership
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Prime Video -> Your Prime Video
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Subscribe & Save Items -> Your Subscribe & Save Items
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Memberships & Subscriptions -> Memberships & Subscriptions
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Free Amazon Business Account -> Your Free Amazon Business Account
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Your Seller Account -> Your Seller Account
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - validation of expected option and your Account present on website passed: 
+2023-Mar-23 23:50:48 pm [main] INFO  YourAccount.class - Manage Your Content and Devices -> Manage Your Content and Devices
+2023-Mar-23 23:50:49 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-23 23:50:49 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-23 23:50:51 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-23 23:50:51 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - validate website LandingPage is successfull
+2023-Mar-23 23:50:51 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - Hello,Signin And List Option is available on LandingPage  

@@ -1,0 +1,6 @@
+Test\Shopping\Website\pageObjects\landingPageObject\LandingPage.class
+Test\Shopping\Website\pageObjects\landingPageObject\YourAccount.class
+Test\Shopping\Website\Stepdefs\stepdefs.class
+Test\Shopping\Website\runners\TestRunner.class
+Test\Shopping\Website\core\WebDriverFactory.class
+Test\Shopping\Website\pageObjects\landingPageObject\YourList.class
