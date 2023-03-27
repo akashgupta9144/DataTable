@@ -34,7 +34,7 @@ public class stepdefs {
 	YourAccount yourAccount;
 	
 
-	@Before
+	@Before(order = 2)
 	public void Setup(Scenario scn) throws Exception {
 		this.scn = scn;
 		String browserName = WebDriverFactory.getBrowserName();
@@ -42,6 +42,10 @@ public class stepdefs {
 		scn.log("user setup the browser: " + browserName);
 		wait = new WebDriverWait(driver, 20);
 		scn.log("webDriverWait is 20 second ");
+		
+		landingPage = new LandingPage(driver,wait);
+		yourList = new YourList(driver);
+		yourAccount = new YourAccount(driver);
 
 	}
 
@@ -59,11 +63,6 @@ public class stepdefs {
 			byte[] screenShot = takesScreenshot.getScreenshotAs(OutputType.BYTES);
 			scn.attach(screenShot, "image/png", "the failed page Name is: " + scn.getName());
 		}
-
-		
-		landingPage = new LandingPage(driver,wait);
-		yourList = new YourList(driver);
-		yourAccount = new YourAccount(driver);
 
 	}
 

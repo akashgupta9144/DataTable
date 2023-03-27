@@ -6,7 +6,6 @@ Feature: Test the footer of landing page healthcheck of shopping website
 	
 @footer	
 Scenario: Validate the footer links of landing  Website page
-	Given User navigate the landing page URL
 	And User scroll down the landing website page 
 	When User is able to see 4 links on the footer of website landing page
 	And the options in footer of landing page are "Get to Know Us","Connect with Us","Make Money with Us","Let Us Help You"

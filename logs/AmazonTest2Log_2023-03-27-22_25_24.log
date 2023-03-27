@@ -1,0 +1,17 @@
+2023-Mar-27 22:25:26 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:26 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:27 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:27 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:29 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-27 22:25:31 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-27 22:25:33 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:33 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:34 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:34 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:42 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-27 22:25:44 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-27 22:25:45 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:45 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:46 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-27 22:25:46 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-27 22:25:49 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/

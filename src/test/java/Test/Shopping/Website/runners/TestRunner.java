@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "classpath:Features", 
 		glue = "Test.Shopping.Website.Stepdefs", 
-		tags = "@footer", 
+		tags = "", 
 		plugin = { "pretty",
 		"html:target/html/htmlreport.html",
 		"json:target/json/file.json", },
@@ -20,7 +20,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		)
 
-
+ 
 
 
 public class TestRunner {

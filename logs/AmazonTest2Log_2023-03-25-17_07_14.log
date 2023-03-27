@@ -1,0 +1,6 @@
+2023-Mar-25 17:07:16 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-25 17:07:17 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-25 17:07:17 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Chrome Browser invoked
+2023-Mar-25 17:07:18 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Driver maximized and implicit time out set to 20 seconds
+2023-Mar-25 17:07:34 pm [main] INFO  Test.Shopping.Website.core.WebDriverFactory - Browser navigated to the url: https://www.amazon.in/
+2023-Mar-25 17:07:34 pm [main] INFO  Test.Shopping.Website.pageObjects.landingPageObject.LandingPage - validate website LandingPage is successfull

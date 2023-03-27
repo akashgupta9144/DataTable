@@ -3,13 +3,70 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-03-25T05:42:09.868Z",
+        "line": 5,
+        "name": "The common feature is running in all test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User navigate the landing page URL"
+            ],
+            "result": {
+              "duration": 11136493800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate the landing page URL",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.Given_User_navigate_the_landing_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "signin Account and List options is available on landing page website"
+            ],
+            "result": {
+              "duration": 109515400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "signin Account and List options is available on landing page website",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.signin_account_and_list_options_is_available_on_landing_page_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "user mousehover on hello signin Accounts and lists"
+            ],
+            "result": {
+              "duration": 207631100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user mousehover on hello signin Accounts and lists",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.user_mousehover_on_hello_signin_accounts_and_lists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T17:03:05.107Z",
         "before": [
           {
+            "output": [
+              "user setup the browser: chrome",
+              "webDriverWait is 20 second "
+            ],
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"Test.Shopping.Website.Stepdefs.stepdefs.Setup(io.cucumber.java.Scenario)\" because \"this.commonFile\" is null\r\n\tat Test.Shopping.Website.Stepdefs.footerStepdefs.Setup(footerStepdefs.java:24)\r\n",
-              "duration": 5374800,
-              "status": "failed"
+              "duration": 26694804100,
+              "status": "passed"
             },
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.Setup(io.cucumber.java.Scenario)"
@@ -21,7 +78,389 @@
               "webDriverWait is 20 second "
             ],
             "result": {
-              "duration": 2721621300,
+              "duration": 756342500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.Setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate the Your List Options on Landing Page under Account and list section",
+        "description": "",
+        "id": "test-the-healthcheck-of-shopping-website;validate-the-your-list-options-on-landing-page-under-account-and-list-section",
+        "after": [
+          {
+            "result": {
+              "duration": 2179900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1005900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "User quit the window "
+            ],
+            "result": {
+              "duration": 198632600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.quitWindow()"
+            }
+          },
+          {
+            "output": [
+              "User quit the window "
+            ],
+            "result": {
+              "duration": 241272400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.quitWindow()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "under Your Lists section following options are availabelTest.Shopping.Website.pageObjects.landingPageObject.YourList@7d583602"
+            ],
+            "result": {
+              "duration": 193569400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "under Your Lists section following options are availabel",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.under_your_lists_section_following_optrions_are_availabel(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Create a Wish List"
+                ]
+              },
+              {
+                "cells": [
+                  "Wish from Any Website"
+                ]
+              },
+              {
+                "cells": [
+                  "Baby Wishlist"
+                ]
+              },
+              {
+                "cells": [
+                  "Discover Your Style"
+                ]
+              },
+              {
+                "cells": [
+                  "Explore Showroom"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@yourList"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "The common feature is running in all test",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User navigate the landing page URL"
+            ],
+            "result": {
+              "duration": 6162362700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate the landing page URL",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.Given_User_navigate_the_landing_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "signin Account and List options is available on landing page website"
+            ],
+            "result": {
+              "duration": 60653700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "signin Account and List options is available on landing page website",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.signin_account_and_list_options_is_available_on_landing_page_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "user mousehover on hello signin Accounts and lists"
+            ],
+            "result": {
+              "duration": 255053100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user mousehover on hello signin Accounts and lists",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.user_mousehover_on_hello_signin_accounts_and_lists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-27T17:03:44.786Z",
+        "before": [
+          {
+            "output": [
+              "user setup the browser: chrome",
+              "webDriverWait is 20 second "
+            ],
+            "result": {
+              "duration": 5412428500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.Setup(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "user setup the browser: chrome",
+              "webDriverWait is 20 second "
+            ],
+            "result": {
+              "duration": 764419200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.Setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate the Your Account Options on Landing Page under Account and list section",
+        "description": "",
+        "id": "test-the-healthcheck-of-shopping-website;validate-the-your-account-options-on-landing-page-under-account-and-list-section",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "User quit the window "
+            ],
+            "result": {
+              "duration": 211807400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.quitWindow()"
+            }
+          },
+          {
+            "output": [
+              "User quit the window "
+            ],
+            "result": {
+              "duration": 227300500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.quitWindow()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "under Your Account section following options are availabelTest.Shopping.Website.pageObjects.landingPageObject.YourAccount@30eed725"
+            ],
+            "result": {
+              "duration": 313088700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "under Your Account section following options are availabel",
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.stepdefs.under_your_account_section_following_optrions_are_availabel(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Your Account"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Orders"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Wish List"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Recommendations"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Prime Membership"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Prime Video"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Subscribe \u0026 Save Items"
+                ]
+              },
+              {
+                "cells": [
+                  "Memberships \u0026 Subscriptions"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Free Amazon Business Account"
+                ]
+              },
+              {
+                "cells": [
+                  "Your Seller Account"
+                ]
+              },
+              {
+                "cells": [
+                  "Manage Your Content and Devices"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          },
+          {
+            "name": "@yourAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Test the healthcheck of shopping website",
+    "description": "",
+    "id": "test-the-healthcheck-of-shopping-website",
+    "keyword": "Feature",
+    "uri": "classpath:Features/Healthcheck.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-27T17:03:58.227Z",
+        "before": [
+          {
+            "output": [
+              "user setup the browser: chrome",
+              "webDriverWait is 20 second "
+            ],
+            "result": {
+              "duration": 5217399100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.Setup(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "user setup the browser: chrome",
+              "webDriverWait is 20 second "
+            ],
+            "result": {
+              "duration": 756001200,
               "status": "passed"
             },
             "match": {
@@ -35,15 +474,7 @@
         "id": "test-the-footer-of-landing-page-healthcheck-of-shopping-website;validate-the-footer-links-of-landing--website-page",
         "after": [
           {
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAAB4AAAANrCAYAAACnboWUAAAAAXNSR0IArs4c6QAAIABJREFUeJzs2cENwCAQwLDS/Xc+lkBCRPYE+WfNzHwAAAAAAAAAPO+/HQAAAAAAAADAGQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAC7PTuQAQAAABjkb32PrzQCmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAABHryE/AAABWUlEQVQAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAhgAAAAAAABgQgADAAAAAAAATAhgAAAAAAAAgAkBDAAAAAAAADAhgAEAAAAAAAAmBDAAAAAAAADAhAAGAAAAAAAAmBDAAAAAAAAAABMCGAAAAAAAAGBCAAMAAAAAAABMCGAAAAAAAACACQEMAAAAAAAAMCGAAQAAAAAAACYEMAAAAAAAAMCEAAYAAAAAAACYEMAAAAAAAAAAEwIYAAAAAAAAYEIAAwAAAAAAAEwIYAAAAAAAAIAJAQwAAAAAAAAwIYABAAAAAAAAJgQwAAAAAAAAwIQABgAAAAAAAJgQwAAAAAAAAAATAdn/CtL4VMFHAAAAAElFTkSuQmCC",
-                "mime_type": "image/png",
-                "name": "the failed page Name is: Validate the footer links of landing  Website page"
-              }
-            ],
             "result": {
-              "duration": 283041800,
               "status": "passed"
             },
             "match": {
@@ -51,15 +482,35 @@
             }
           },
           {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.takeScreenShot(io.cucumber.java.Scenario)"
+            }
+          },
+          {
             "output": [
               "User quit the window "
             ],
             "result": {
-              "duration": 140439900,
+              "duration": 151077200,
               "status": "passed"
             },
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.stepdefs.quitWindow()"
+            }
+          },
+          {
+            "output": [
+              "User quit the window "
+            ],
+            "result": {
+              "duration": 217600900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.quitWindow()"
             }
           }
         ],
@@ -68,21 +519,10 @@
         "steps": [
           {
             "result": {
-              "duration": 999200,
-              "status": "skipped"
+              "duration": 2029844500,
+              "status": "passed"
             },
             "line": 9,
-            "name": "User navigate the landing page URL",
-            "match": {
-              "location": "Test.Shopping.Website.Stepdefs.stepdefs.Given_User_navigate_the_landing_page_URL()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
             "name": "User scroll down the landing website page",
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.user_scroll_down_the_landing_website_page()"
@@ -91,9 +531,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1007400,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "User is able to see 4 links on the footer of website landing page",
             "match": {
               "arguments": [
@@ -108,9 +549,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "the options in footer of landing page are \"Get to Know Us\",\"Connect with Us\",\"Make Money with Us\",\"Let Us Help You\"",
             "match": {
               "arguments": [
@@ -137,9 +578,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "validate under Get to Know Us option category below options are visible",
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.validate_under_get_to_know_us_option_category_below_options_are_visible(io.cucumber.datatable.DataTable)"
@@ -170,10 +611,10 @@
           },
           {
             "result": {
-              "duration": 999800,
-              "status": "skipped"
+              "duration": 1000800,
+              "status": "passed"
             },
-            "line": 19,
+            "line": 18,
             "name": "validate under Connect with Us option category below options are visible",
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.validate_under_connect_with_us_option_category_below_options_are_visible(io.cucumber.datatable.DataTable)"
@@ -199,10 +640,10 @@
           },
           {
             "result": {
-              "duration": 1004400,
-              "status": "skipped"
+              "duration": 1000600,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "validate under Make Money with Us option category below options are visible",
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.validate_under_make_money_with_us_option_category_below_options_are_visible(io.cucumber.datatable.DataTable)"
@@ -253,9 +694,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 999000,
+              "status": "passed"
             },
-            "line": 34,
+            "line": 33,
             "name": "validate under Let Us Help You option category below options are visible",
             "match": {
               "location": "Test.Shopping.Website.Stepdefs.footerStepdefs.validate_under_let_us_help_you_option_category_below_options_are_visible(io.cucumber.datatable.DataTable)"

@@ -30,7 +30,7 @@ public class LandingPage {
 		String expected=base_url;
 		String actual=driver.getCurrentUrl();
 		Assert.assertEquals(expected, actual);
-		logger.info("validate website LandingPage is successfull");
+		logger.info("validate website LandingPage is successfull"); 
 	}
 	
 	public void validate_Signin_And_List_Option_on_LandingPage() {

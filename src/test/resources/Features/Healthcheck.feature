@@ -6,7 +6,7 @@ Background: The common feature is running in all test
 	
 	Given User navigate the landing page URL 
   When signin Account and List options is available on landing page website            
-  Then user mousehover on hello signin Accounts and lists
+	 Then user mousehover on hello signin Accounts and lists
 
 @yourList
 Scenario: Validate the Your List Options on Landing Page under Account and list section
